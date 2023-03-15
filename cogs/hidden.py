@@ -69,25 +69,7 @@ class HiddenCommands(commands.Cog):
       print(json.dumps(thing))
       
         
-      await inter.response.send_message(f"`{emoji_list}`")
-    
-  @commands.slash_command()
-  async def bulk_create_emojis(self, inter, emojis):
-      print(emojis)
-      for emoji in emojis:
-        emoji_image = requests.get(emoji.url)
-        
-        try:
-            await inter.guild.create_custom_emoji(name=emoji.name, image=emoji_image.content)
-        except disnake.HTTPException as e:
-            return ("An error occurred creating the emoji, your server could of gotten rate limited or another issue has happened. Please try again")
-            #log(e)
-        except disnake.NotFound as e:
-            return (f"The image for {emoji.name} could not be found, please report this to the support server (not your fault)")
-            #log(e)
-        except disnake.ValueError as e:
-            return (f"Wrong image format passed for {emoji.name}, please report this to the support server (not your fault)")
-            #log(e)          
+      await inter.response.send_message(f"`{emoji_list}`")       
 
 
 def setup(bot):
