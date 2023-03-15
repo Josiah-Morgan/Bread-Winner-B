@@ -1,6 +1,8 @@
 import disnake
 from disnake.ext import commands
+
 from utils.tools import color_check
+from utils.config.config import BotLinks
 
 NFL_LEAGUES = ["https://discord.new/B3U8zHPEMh9K", "https://discord.new/hukwCm6tjEeN", "https://discord.new/7rsNTeqYzDG8", "https://discord.new/ZdN8WtYJkWvZ", "https://discord.new/2rNnQTCEmpum", "https://discord.new/h8CSg7qhRS5x", "https://discord.new/thm2ZGBWt223", "https://discord.new/Kp6nKrPE67Ef",  "https://discord.new/HwDdKDsM4cDP", "https://discord.new/kNaCqHXcPWv5",  "https://discord.new/bfSWCdjswaXH", "https://discord.new/33NRzhy4CY57",  "https://discord.new/NxRt2m6aQFMf", "https://discord.new/GHVtcVMTk6Ru",  "https://discord.new/H8pZRb7r5Vtg", "https://discord.new/2X3UhzMt33DZ",  "https://discord.new/SBZg4TnGjUfu", "https://discord.new/sgCc2qVXCmnB", "https://discord.new/Xc3W4hzEBFFF"]
 
@@ -234,43 +236,44 @@ class LeagueCommands(commands.Cog):
 
   @commands.slash_command()
   async def symbol(self, inter):
-          template_server = BotLinks.template_server
-          embed = disnake.Embed(title="Symbols Menu", description=f"You can also see all the bot's symbols in the [template server]({template_server})", color=await color_check(inter))
-          await inter.response.send_message(
-            embed = embed,
-            view=SymbolsMenu(inter)
-          )
+      """Use symbols to make your creations look even better"""
+    	template_server = BotLinks.template_server
+    	embed = disnake.Embed(title="Symbols Menu", description=f"You can also see all the bot's symbols in the [template server]({template_server})", color=await color_check(inter))
+    	await inter.response.send_message(
+          embed = embed,
+          view=SymbolsMenu(inter)
+      )
 
   @commands.slash_command()
   async def symbols(self, inter):
     return
   
-  @symbol.sub_command()
+  @symbols.sub_command()
   async def bars(self, inter):
     """Bar symbols, roles, categories"""
     await inter.response.send_message("Use the new `/symbol`", ephemeral=True)
 
-  @symbol.sub_command()
+  @symbols.sub_command()
   async def brackets(self, inter):
     "Bracket symbols, channels, roles"
     await inter.response.send_message("Use the new `/symbol`", ephemeral=True)
 
-  @symbol.sub_command()
+  @symbols.sub_command()
   async def lines(self, inter):
     """Lines symbols, fits everything"""
     await inter.response.send_message("Use the new `/symbol`", ephemeral=True)
 
-  @symbol.sub_command()
+  @symbols.sub_command()
   async def dots(self, inter):
     """Dot symbols, fits everything"""
     await inter.response.send_message("Use the new `/symbol`", ephemeral=True)
 
-  @symbol.sub_command()
+  @symbols.sub_command()
   async def stars(self, inter):
     """Star symbols, roles, categories"""
     await inter.response.send_message("Use the new `/symbol`", ephemeral=True)
 
-  @symbol.sub_command()
+  @symbols.sub_command()
   async def dividers(self, inter):
     """Divider symbols, roles, categories"""
     await inter.response.send_message("Use the new `/symbol`", ephemeral=True)
