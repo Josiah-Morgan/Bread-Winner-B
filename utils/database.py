@@ -2,8 +2,8 @@ import os
 
 import aiohttp
 
-DATABASE_URL = "https://database-errors.jerythemouse.repl.co"
-DATABASE_KEY = "FOuiCnouiomCClsjofjolmlZos"
+DATABASE_URL = "https://<replit_name>.<replit_username>.repl.co"
+DATABASE_KEY = "<password>"
 
 class Database:
   
