@@ -28,7 +28,7 @@ class Bread(commands.AutoShardedInteractionBot):
 bot = Bread()
 
 @bot.slash_command()
-#@commands.is_owner()
+@commands.is_owner()
 async def load(inter, cogname: str):
     """
     Loads a cog
@@ -46,7 +46,7 @@ async def load(inter, cogname: str):
         f":gear: Successfully Loaded **{cogname}** Module!") 
 
 @bot.slash_command()
-#@commands.is_owner()
+@commands.is_owner()
 async def unload(inter, cogname: str):
     """
     Unloads a cog
@@ -64,7 +64,7 @@ async def unload(inter, cogname: str):
         f":gear: Successfully Unloaded **{cogname}** Module!")
 
 @bot.slash_command()
-#@commands.is_owner()
+@commands.is_owner()
 async def reload(inter, cogname: str):
     """
     Loads and unloads a cog
@@ -82,4 +82,4 @@ async def reload(inter, cogname: str):
       await inter.response.send_message(
         f":gear: Successfully Reloaded the **{cogname}** module!")
             
-bot.run("NzI2NjEwNjY4MDY4Nzk4NDk4.GWxq1g.8FlJQoblM4BnALacBtpijMNtbQAF3vamGSUSGA")
+bot.run("<bot token>")
