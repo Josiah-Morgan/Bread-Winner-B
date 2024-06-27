@@ -81,4 +81,4 @@ async def reload(inter, cogname: str):
         f":gear: Successfully Reloaded the **{cogname}** module!")
 
 
-#bot.run("NzMwNTk0MDk4Njk1NjM1MDE0.G2Dom3.2Y_X2sT1EHexWkPQthcWCZrn3RY5qSQviK1B2o")
+bot.run("<bot token>")
