@@ -1,12 +1,12 @@
 {
     "type": "service_account",
     "project_id": "bread-winner-b-logging",
-    "private_key_id": "0878c15b922d551cd79d22692418d7a1edae8014",
-    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5jM537qEFAXb1\nAnkOoddE2bPyvCuXEOpvfDxmcbFOqptd+noHajIMbgQe12mj/cgtYLGX/qDgcdUe\nve+fQEbB/MQ/7dByuphQF8BA1SXiH1vzOQ42Yw5bGI5pyFOACBkTRKpI94jka7GA\nG469R49I1DoYcqjdoq8CXT57F2auc+6jVn1YZp2qLnZevJodaJH0JuWdi5uiIzJi\nVB96TWTBkXVSnUIPs+zj4ba7+uR1wLyL3a8tz94we8rv9GG/EIN9vz/4gGIgzBbV\nKNO5G11CgENn9NbPjpHEb1wz7SKwwZyXuHfrRqvEX+j3mQ0aEuTffHP109v8n+eV\naM+RPOdhAgMBAAECggEAS9KzaKUWHbKMhvC8wXL3QgZol4+3jGL4OhidogthtlDX\nbp71kOQfkZ6/hk7mt4H0dD6oNAF0gmNiAM8DBaPBhnIhTDKFVOzVYx1hjdzMP0wr\nSggNu8Hc0vME90tKe+5TOOF9aJXm1dkATuZz/PsqHUvEdcsdIHzjYWbzKl/UsQKy\nz8QSboesupHTMc7FhOMacbqOCW0nlGOWo0Tl620uqz3IVk8BJIGDcU8hOLplwKl8\n66F1gAHCnJ3FGO3QDsAOUTwDcuggk1urgjcCW3n9OqSGhF9wuDgwJqlH23wwCEKc\n/hUPK+ly1CjD4o5ZHcMYN9xw91Pf+UX7VFy5fIkKdQKBgQDhSCpoJd5JmxNNwO/f\ngisdvkHf6MVHgl4zUAVy9+8HCvOj8yOSsQ4yup8z1d9g5RoDUysE8+UWriXvosqv\n5gCog0HvuOFe3mxg6zvQz1VR9aRyh+f9aHBJjTXg83xD1PhBatW45OgTeR8cQj0L\nrxgvIb3OHlRZFtd9DjwjWwQexwKBgQDS2bwT8u91RjVhnFtMbELXkYvlcdTDPhHq\n4l0doKaOCihv6vxkBUsAyO2aYv/pln1RXwajwBXAMWBdX7Lbbw0mSBiS87x1nmL4\ntCbC8Im/qcszaRaxsqoAr+JFBB+CQY4iuQLGqa3rB+7PwTNm56fS6m1Dlj1+bp7g\nXkfP6/tAlwKBgC9yjpPu3dls0uz+ZMcTWFdkWeV51gsQlxyBjxQ+ydYW5WezbtuX\ndOEUUzGMqwZyWj83Bgl+ANL9DLpi9AOGEr9rHbkKnFTpzbO/95IsCNFBRkhk/WRu\n2a90EVP2lEaJFVxZzvepJoPrb7T48niCgTp0BdDirGszF2GcXOgpZD3DAoGANp6i\nwwQuldGfKG8Jk42D7zXL6J8JP56Ho7IJ7w/btXXaLcvQn9RjLoveSR0WMBuE0Rxt\nquOqfsQLs4SD36Yv4NfSTdcH3ewutUBtvhfzhwvkEKhLcbLXqR/m3HwJ8YMr38DP\ngEkaPYUrjvP8bc7awZ9quJRlz6e2Tmb98VWvG3cCgYEAhsEjHRrMcgo5wWY9KnJ1\nu2ZW7tSPHATZz8zxbzT91DH0lkp2keg8vLO+Cpr1RlhzwuUZcNO+3PG8H9hOteZF\nr/4pAdnltiTbVEQL56VuHaUT4e4PHqfvbenSOih5t0xn//Usiqaig61QIcMQfeuv\n66+vkDlB84euP6Msml6YzgA=\n-----END PRIVATE KEY-----\n",
-    "client_email": "bread-winner-b-logging@bread-winner-b-logging.iam.gserviceaccount.com",
-    "client_id": "104100772033718495140",
+    "private_key_id": "...",
+    "private_key": "...",
+    "client_email": "...",
+    "client_id": "...",
     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
     "token_uri": "https://oauth2.googleapis.com/token",
     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bread-winner-b-logging%40bread-winner-b-logging.iam.gserviceaccount.com"
+    "client_x509_cert_url": "..."
   }
