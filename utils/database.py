@@ -2,9 +2,9 @@ import aiohttp
 import json
 import os
 
-DATABASE_URL = "https://new-bread.jerythemouse.repl.co/"
-DATABASE_KEY = "FOuiCnouiomCClsjofjolmlZos"
-CONFIG_KEY = "Breadwinnersucks"
+DATABASE_URL = "https://<replit_name>.<replit_username>.repl.co/"
+DATABASE_KEY = "<password>"
+CONFIG_KEY = "<password2>"
 
 
 class Database:
